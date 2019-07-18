@@ -1,7 +1,7 @@
 @extends('layout.app')
-
+                       //include begin html form the layout.app folder
 @section('content')
-@include('inc.css')
+@include('inc.css')//includes css form the /inc/css folder
 <div class="loginbox">
 	<img src="LoginIcon.png" class="avatar">
 		<h1 style="">Login Here</h1>
